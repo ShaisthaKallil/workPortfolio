@@ -1,0 +1,152 @@
+/*::::::::::::::::SHAISTHA KALLIL - FORM STYLE SHEET::::::::::::::::*/
+
+	/*::::GENERAL::::*/
+	
+		html{
+			box-sizing:border-box;
+		}
+		*,*:before,*:after{
+			box-sizing:inherit;
+		}
+		body{
+			margin:0;
+			background-color:rgb(11,51,0);
+		}
+		clearfix {
+		    content: "";
+			display:table;
+			clear:both;
+		}
+		
+	/*::::WEBPAGE NAVIGATION TOP BAR SIGN IN /LOG IN ::::*/	
+
+		#option{
+			padding:8px;
+			border-bottom:1px solid gray;
+			background-color: #7eb000;
+		}
+		
+		h1{
+			display: inline;
+			color:#fdffb5;
+		}
+		
+
+	/*::::SIGN UP/LOGIN BUTTON STYLE::::*/
+	
+		#option input{
+		    width:120px;
+			float:right;
+			margin-left:15px;
+			margin-right:25px;
+			background-color:#387800;
+			color:#fdffb5;
+			padding:4px;
+			border-radius:5px;
+			font-size:1.0em;
+			font-weight:600;
+		
+		}
+		
+	/*::::FORM CONTAINER::::*/
+	
+		#container{
+			margin:150px auto;
+			border:5px solid #7eb000;
+			border-radius:15px;
+			background-color:silver;
+			padding:20px;
+			width:600px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size:1.2em;
+		}
+	
+	/*:::: SUCCESS MESSAGE DISPLAY BOX::::*/	
+		#confirmation{
+			border:2px solid #7eb000;
+			border-radius:10px;
+			color:rgb(11,51,0);
+			padding:5px;
+			line-height:2.0;
+			background-color:#fff;
+			display:none;
+			display:none;
+		}
+		
+	/*:::: ERROR MESSAGE DISPLAY BOX::::*/	
+		
+		#error{
+		    border:2px solid red;
+			border-radius:10px;
+			color:red;
+			padding:5px;
+			line-height:2.0;
+			background-color:#fff;
+			display:none;
+		}
+		
+	/*:::: FORM STYLE ::::*/
+		
+		#validationForm{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		
+	/*:::: FORM USER INPUT BOX STYLE ::::*/	
+		
+		input#email, input#phone, input.password {
+		    width:300px;
+			height:30px;
+			padding:2px;
+			padding-left:8px;
+			margin:5px;
+			margin-left:20px;
+			border-radius:5px;
+			font-size:1.2em;
+			border: 1px solid grey;
+			background-color:#eee;
+		}
+
+	
+	/*:::: FORM INPUT BOX HOVER EFFECTS ::::*/
+		input#phone:hover,input#email:hover, input.password:hover{
+		    background-color:#ffff99;
+		}
+		
+	/*::::: FORM SIGNUP/LOGIN/BACK BUTTON STYLE ::::*/
+		
+		input#submit,input#submit2,#returnForm {
+			width:120px;
+			padding:4px;
+			margin:20px 20px;
+			background-color:#387800;
+			color:#fdffb5;
+			border-radius:5px;
+			font-size:1.0em;
+			font-weight:600;
+			letter-spacing:1px;
+		}
+		
+	/*:::: FORM, HIDE LOGIN BUTTON ::::*/
+		
+		input#submit2{
+			display:none;
+		}
+	
+	/*:::: FORM, HIDE BACK BUTTON ::::*/
+		#returnForm{
+			display:none;
+			margin-left:10px;
+		}
+	
+	/*:::: FORM INPUT LABEL STYLE ::::*/
+		label{
+			width:178px;
+			float:left;
+			color:#387800;
+			font-weight:400;
+			padding:13px 0 0 24px;
+			text-align:left;
+		}
+	
+
